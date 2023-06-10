@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181263897303",
+    "project_id": "crud-firebase-youtube",
+    "storage_bucket": "crud-firebase-youtube.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181263897303:android:770700be1802da194a1692",
+        "android_client_info": {
+          "package_name": "com.example.firebase_crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181263897303-7rd5munhopduggraamhgr77h3lclh4sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMEson-13YDm1bk9DH9m57lLLAtsK9RyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181263897303-7rd5munhopduggraamhgr77h3lclh4sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
