@@ -58,9 +58,9 @@ class FireStoreHelper {
         ),
       );
     }
-    // delete Data
   }
 
+  // delete Data
   static Future<void> deleteData(BuildContext context, UserModel user) async {
     final userCollection = FirebaseFirestore.instance.collection("users");
 
@@ -74,18 +74,4 @@ class FireStoreHelper {
       );
     }
   }
-  // static Future<void> updateData(BuildContext context) async {
-  //   final userCollection = FirebaseFirestore.instance.collection("users");
-  //   try {
-  //     await userCollection
-  //         .doc("QGk93rdWcJTey4U1chqt")
-  //         .update({"username": "new name (:"});
-  //   } catch (error) {
-  //     ScaffoldMessenger.of(context).showSnackBar(
-  //       SnackBar(
-  //         content: Text('Error adding document'),
-  //       ),
-  //     );
-  //   }
-  // }
 }
